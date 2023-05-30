@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/logo.svg" type="image/x-icon" width="50px">
     <title>Encriptador</title>
 </head>
 
@@ -23,17 +24,25 @@
                 <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
             </div>
             <div class="botones">
-                <button class="btn-encriptar">Encriptar</button>
-                <button class="btn-desencriptar">Desencriptar</button>
+                <button class="btn-encriptar" onclick="encriptadora()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="desencriptadora()">Desencriptar</button>
             </div>
         </section>
         <section>
             <textarea class="mensaje" cols="20" rows="10"></textarea>
             <div>
-                <button class="copiar">Copiar</button>
+                <button class="copiar" onclick="clipboard()">Copiar</button>
             </div>
         </section>
     </main>
+    <footer class="footer">
+        <p>Copyright &copy; 2023, Andrea Castaño.</p>
+        <a href="https://github.com/AndreaCastanoS"><img src="./assets//github_git_icon_145985.svg" width="40px" height="40px"> </a>
+        <a href="https://www.linkedin.com/in/andrea-castano97/"><img src="./assets/linkedin_icon-icons.com_65929.svg" width="40px" height="40px"> </a>
+        
+        
+    </footer>
+    
     <script src="./script.js"></script>
 </body>
 
