@@ -23,11 +23,11 @@ main{
     color:  #0A3871;
     margin-top: 90px;
     text-transform: lowercase;
-    height: 8rem;
+    height: 5rem;
 }
 
 ::placeholder{color:  #0A3871;}
-.text-area:focus{
+.textarea:focus{
     outline: none;
 }
 
@@ -38,10 +38,10 @@ main{
     border: none;
     border-radius: 24px;
     color:#0A3871;
-    margin-left: 98px;
-    margin-top: 20px; 
+    margin-left: 98px; 
     padding-left: 20px;
-    position: fixed;
+    height: 10rem;
+    /* position: fixed; */
 }
 
 .mensaje:focus{
@@ -81,7 +81,7 @@ color: #0A3871;
 cursor: pointer;
 height: 67px;
 margin-left: 100px;
-margin-top: 402px;
+margin-top: 40px;
 position: absolute;
 width: 336px;
 }
@@ -89,4 +89,10 @@ width: 336px;
 .informacion{
     color: #495057;
     font-size: 18px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
